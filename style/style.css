@@ -56,9 +56,11 @@ li a {
 
 .banner {
 
+
+
    
 
-    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url(./Group\ 13\ \(1\)\ \(1\).png);
 
    
 
@@ -131,9 +133,18 @@ li a {
 @media screen and (max-width:576px){
 
     .banner-box {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -100px;
+    }
 
-        
+    .banner-content h1{
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 10px;
+    }
+    .banner-content p{
+ 
+        display: none;
     }
     .box{
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
